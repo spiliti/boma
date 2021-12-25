@@ -16,10 +16,10 @@ ALTER TABLE EG_ACTION ALTER COLUMN enabled SET NOT NULL;
 
 DROP INDEX indx_eram_actionid,indx_eram_roleid;
 
-ALTER TABLE eg_appconfig RENAME COLUMN key_name to keyname;
+--ALTER TABLE eg_appconfig RENAME COLUMN key_name to keyname;
 
-ALTER TABLE eg_appconfig_values RENAME COLUMN key_id to config;
-ALTER TABLE eg_appconfig_values RENAME COLUMN effective_from to effectivefrom;
+--ALTER TABLE eg_appconfig_values RENAME COLUMN key_id to config;
+--ALTER TABLE eg_appconfig_values RENAME COLUMN effective_from to effectivefrom;
 
 ALTER TABLE eg_boundary ALTER COLUMN boundarynum SET NOT NULL;
 ALTER TABLE eg_boundary ALTER COLUMN code SET NOT NULL;
