@@ -265,7 +265,7 @@
         <module>egov-demand</module>
         <module>egov-ptis</module>
         <module>egov-adtax</module>
-        <module>egov-wtms</module>
+        <module>egov-wtms</module> 
         <module>egov-tl</module>
         <!-- <module>egov-bpa</module> -->
         <module>egov-commonsweb</module>
