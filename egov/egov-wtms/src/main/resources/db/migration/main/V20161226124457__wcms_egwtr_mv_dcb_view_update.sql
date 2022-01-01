@@ -1,5 +1,5 @@
 
-DROP MATERIALIZED VIEW  if exists egwtr_mv_inst_dem_coll;
+-- DROP MATERIALIZED VIEW  if exists egwtr_mv_inst_dem_coll;
 
 DROP VIEW if exists egwtr_mv_dcb_view;
 
