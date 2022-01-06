@@ -93,7 +93,7 @@
                         <label class="col-sm-3 control-label"><spring:message code="lbl.mobile"/><span class="mandatory set-mandatory"></span></label>
                         <div class="col-sm-3 add-margin">
                             <div class="input-group">
-                                <span class="input-group-addon">+91</span>
+                                <span class="input-group-addon">+260</span>
                                 <form:input path="mobileNumber" cssClass="form-control" data-inputmask="'mask': '9999999999'" id="mobileNumber" placeholder="Mobile Number" maxlength="10" disabled="true" required="required"/>
                             </div>
                             <form:errors path="mobileNumber" cssClass="add-margin error-msg"/>
