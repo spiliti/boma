@@ -216,7 +216,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Times New Roman" size="12" isBold="true" pdfFontName="Times-Bold" pdfEncoding="Cp1252" isPdfEmbedded="true"/>
 				</textElement>
-				<text><![CDATA[Amount (in Rupees)]]></text>
+				<text><![CDATA[Amount (in Kwacha(ZMW))]]></text>
 			</staticText>
 		</band>
 	</columnHeader>

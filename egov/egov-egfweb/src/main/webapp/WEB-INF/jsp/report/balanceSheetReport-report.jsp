@@ -187,7 +187,7 @@ th.bluebgheadtd {
 					<td class="greybox"><s:text name="report.rupees" />:<span
 						class="mandatory1">*</span></td>
 					<td class="greybox"><s:select name="currency" id="currency"
-							list="#{'Rupees':'Rupees','Thousands':'Thousands','Lakhs':'Lakhs'}"
+							list="#{'Kwacha':'Kwacha','Thousands':'Thousands','Millions':'Millions'}"
 							value="%{model.currency}" /></td>
 				</tr>
 				<tr>

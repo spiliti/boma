@@ -109,7 +109,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="12" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA["PAYMENT DETAILS (In Rupees)"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["PAYMENT DETAILS (in Kwacha(ZMW))"]]></textFieldExpression>
 			</textField>
 			<textField isStretchWithOverflow="true">
 				<reportElement x="8" y="187" width="91" height="41" uuid="9aec4eaf-eca0-4b12-943d-0575b29556d1"/>

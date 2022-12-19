@@ -411,7 +411,7 @@
 				<textElement>
 					<font isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Net Amount Payable with Penalty for the Financial Year "+$P{currentInstallmentDesc}+" [in Rupees]"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Net Amount Payable with Penalty for the Financial Year "+$P{currentInstallmentDesc}+" [in Kwacha(ZMW)]"]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="1" y="45" width="199" height="20" uuid="687c3b90-da3f-4480-b800-033cd75b4898"/>

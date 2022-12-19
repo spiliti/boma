@@ -99,7 +99,7 @@
 						class="mandatory">*</span></td>
 					<td class="greybox" width="15%"><s:select name="currency"
 							id="currency"
-							list="#{'Rupees':'Rupees','Thousands':'Thousands','Lakhs':'Lakhs'}"
+							list="#{'Kwacha':'Kwacha','Thousands':'Thousands','Millions':'Millions'}"
 							headerKey="0" headerValue="--- Select ---"
 							value="%{model.currency}" /></td>
 				</tr>

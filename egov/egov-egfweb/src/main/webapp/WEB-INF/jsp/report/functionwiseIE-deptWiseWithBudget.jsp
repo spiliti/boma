@@ -112,7 +112,7 @@ window.open(url,"deptWiseReport","height=650,width=900,scrollbars=yes,left=20,to
 											format="dd/MM/yyyy" /></strong></td>
 								<td colspan="11" class="blueborderfortd">
 									<div style="text-align: right">
-										<strong>Amount in Rupees&nbsp;&nbsp;
+										<strong>Amount in Kwacha(ZMW)&nbsp;&nbsp;
 											&nbsp;&nbsp;&nbsp;</strong>
 									</div>
 								</td>
@@ -244,7 +244,7 @@ window.open(url,"deptWiseReport","height=650,width=900,scrollbars=yes,left=20,to
 							<tr>
 								<td colspan="10" class="blueborderfortd">
 									<div style="text-align: right">
-										<strong>Amount in Rupees&nbsp;&nbsp;
+										<strong>Amount in Kwacha(ZMW)&nbsp;&nbsp;
 											&nbsp;&nbsp;&nbsp;</strong>
 									</div>
 								</td>

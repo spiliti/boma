@@ -511,7 +511,7 @@ public class ReportHelper {
                 "Amount in Thousand"
                 : subtitle
                 + "                                                                                                                                                                                                                                                                "
-                + "Amount in Rupees";
+                + "Amount in Kwacha(ZMW)";
         FastReportBuilder drb = new FastReportBuilder();
         if (LOGGER.isInfoEnabled())
             LOGGER.info("  Generating Budget Report for HOD  pdf/excel ");
@@ -1016,7 +1016,7 @@ public class ReportHelper {
             drb.setTitle(header)
             .setSubtitle(
                     "Report Run Date:" + FORMATDDMMYYYY.format(new Date())
-                    + "                                                                    Amount in Rupees")
+                    + "                                                                    Amount in Kwacha(ZMW)")
                     .setPrintBackgroundOnOddRows(true).setWhenNoData("No Data",
                             detailAmountStyle).setDefaultStyles(
                                     getTitleStyle(), getAmountSubTitleStyle(),
@@ -1072,7 +1072,7 @@ public class ReportHelper {
             drb.setTitle(header)
             .setSubtitle(
                     "Report Run Date:" + FORMATDDMMYYYY.format(new Date())
-                    + "                                                                    Amount in Rupees")
+                    + "                                                                    Amount in Kwacha(ZMW)")
                     .setPrintBackgroundOnOddRows(true).setWhenNoData("No Data",
                             detailAmountStyle).setDefaultStyles(
                                     getTitleStyle(), getAmountSubTitleStyle(),
@@ -1147,7 +1147,7 @@ public class ReportHelper {
                                                                                                 .addColumn("Balance (Rs)", "computedBalance",
                                                                                                         BigDecimal.class.getName(), 60, amountStyle);
             // Added Blank Space for painting subtitle left and right aligned
-            drb.setTitle(header).setSubtitle("Report Run Date:" + FORMATDDMMYYYY.format(new Date()) + " Amount in Rupees")
+            drb.setTitle(header).setSubtitle("Report Run Date:" + FORMATDDMMYYYY.format(new Date()) + " Amount in Kwacha(ZMW)")
             .setPrintBackgroundOnOddRows(true).setWhenNoData("No Data",
                     detailAmountStyle).setDefaultStyles(
                             getTitleStyle(), getAmountSubTitleStyle(),
@@ -1218,7 +1218,7 @@ public class ReportHelper {
             drb.setTitle(header)
             .setSubtitle(
                     "Report Run Date:" + FORMATDDMMYYYY.format(new Date())
-                    + "                                       Amount in Rupees")
+                    + "                                       Amount in Kwacha(ZMW)")
                     .setPrintBackgroundOnOddRows(true).setWhenNoData("No Data",
                             detailAmountStyle).setDefaultStyles(
                                     getTitleStyle(), getAmountSubTitleStyle(),

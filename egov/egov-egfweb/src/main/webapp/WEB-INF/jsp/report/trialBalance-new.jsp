@@ -290,7 +290,7 @@ today = dd+'/'+mm+'/'+yyyy;
 				<td colspan="12">
 					<div class="blueborderfortd" align="right">
 						<strong> <s:text name="report.amount.in" />
-							Rupees&nbsp;&nbsp;&nbsp;&nbsp;
+							Kwacha&nbsp;&nbsp;&nbsp;&nbsp;
 						</strong>
 					</div>
 				</td>

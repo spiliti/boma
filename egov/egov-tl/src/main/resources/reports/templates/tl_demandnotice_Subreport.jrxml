@@ -71,7 +71,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="10" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA["NET AMOUNT PAYABLE WITH PENALTY FOR THE FINANCIAL YEAR OF " +$P{installmentYear}+ " (In Rupees)"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["NET AMOUNT PAYABLE WITH PENALTY FOR THE FINANCIAL YEAR OF " +$P{installmentYear}+ " (in Kwacha(ZMW))"]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement positionType="Float" x="108" y="20" width="108" height="30" uuid="c970431d-a3bc-48ca-9620-a0bdeaf611a5"/>

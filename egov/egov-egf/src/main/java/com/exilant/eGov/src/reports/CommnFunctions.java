@@ -410,7 +410,7 @@ public class CommnFunctions {
     }
 
     /**
-     * convert amount in rupeese to thousands or lakhs
+     * convert amount in Kwacha(ZMW)e to thousands or lakhs
      *
      * @param amt :amount to be converted
      * @param amt_In : to "thousands" or "lakhs"

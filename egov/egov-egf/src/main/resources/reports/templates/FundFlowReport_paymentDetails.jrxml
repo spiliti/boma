@@ -84,7 +84,7 @@
 				<textElement textAlignment="Right" verticalAlignment="Bottom">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Rupees in Lakh]]></text>
+				<text><![CDATA[Kwacha in Millions]]></text>
 			</staticText>
 		</band>
 	</pageHeader>

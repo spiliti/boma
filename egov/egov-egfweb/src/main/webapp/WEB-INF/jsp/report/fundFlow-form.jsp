@@ -104,8 +104,7 @@
 						cellspacing="0" border="0" class="tablebottom" id="receiptTable">
 						<tr>
 							<td colspan=8 align="center"><b>RECEIPT BANK DETAILS</b></td>
-							<td align="right" border="0"><strong>(Rupees in
-									Lakh)</strong></td>
+							<td align="right" border="0"><strong>(Kwcha in Millions)</strong></td>
 						</tr>
 						<tr>
 							<th class="bluebgheadtd"><s:text name="bank" /></th>
@@ -326,7 +325,7 @@
 						cellspacing="0" border="0" class="tablebottom" id="paymentTable">
 						<tr>
 							<td colspan="11" align="center"><b>PAYMENT BANK DETAILS</b></td>
-							<td align="right"><strong>(Rupees in Lakh)</strong></td>
+							<td align="right"><strong>(Kwacha in Millions)</strong></td>
 						</tr>
 						<tr>
 							<th class="bluebgheadtd"><s:text name="bank" /></th>

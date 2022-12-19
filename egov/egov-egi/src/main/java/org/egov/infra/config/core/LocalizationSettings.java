@@ -76,17 +76,17 @@ public final class LocalizationSettings {
 
     public static final String DEFAULT_DATE_PATTERN = "dd/MM/yyyy";
     public static final String DEFAULT_DATE_TIME_PATTERN = "dd/MM/yyyy hh:mm a";
-    public static final String DEFAULT_TIME_ZONE = "IST";
-    public static final String DEFAULT_COUNTRY_CODE = "91";
-    public static final String DEFAULT_CURRENCY_CODE = "INR";
-    public static final String DEFAULT_CURRENCY_NAME = "Rupee";
-    public static final String DEFAULT_CURRENCY_NAME_PLURAL = "Rupees";
-    public static final String DEFAULT_CURRENCY_UNIT_NAME = "Paisa";
-    public static final String DEFAULT_CURRENCY_UNIT_NAME_PLURAL = "Paise";
-    public static final String DEFAULT_CURRENCY_NAME_SHORT = "Rs.";
-    public static final String DEFAULT_CURRENCY_SYMBOL_UTF8 = "\u20B9";
-    public static final String DEFAULT_CURRENCY_SYMBOL_HEX = "&#x20b9;";
-    public static final String DEFAULT_LOCALE = "en_IN";
+    public static final String DEFAULT_TIME_ZONE = "CAT";
+    public static final String DEFAULT_COUNTRY_CODE = "260";
+    public static final String DEFAULT_CURRENCY_CODE = "ZMW";
+    public static final String DEFAULT_CURRENCY_NAME = "Kwacha";
+    public static final String DEFAULT_CURRENCY_NAME_PLURAL = "Kwacha";
+    public static final String DEFAULT_CURRENCY_UNIT_NAME = "Ngwee";
+    public static final String DEFAULT_CURRENCY_UNIT_NAME_PLURAL = "Ngwee";
+    public static final String DEFAULT_CURRENCY_NAME_SHORT = "ZMW.";
+/*    public static final String DEFAULT_CURRENCY_SYMBOL_UTF8 = "\u20B9";
+  public static final String DEFAULT_CURRENCY_SYMBOL_HEX = "&#x20b9;";  */
+    public static final String DEFAULT_LOCALE = "en_ZM";
     public static final String DEFAULT_ENCODING = "UTF-8";
 
 

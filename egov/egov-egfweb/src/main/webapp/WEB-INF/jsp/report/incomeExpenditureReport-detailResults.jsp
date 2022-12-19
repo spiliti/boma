@@ -70,7 +70,7 @@
 							<td colspan="14">
 								<div class="blueborderfortd" align="right">
 									<strong> <s:text name="report.amount.in.rupees" />
-										&nbsp;&nbsp;&nbsp;&nbsp;
+										Kwacha&nbsp;&nbsp;&nbsp;&nbsp;
 									</strong>
 								</div>
 							</td>

@@ -125,7 +125,7 @@
 				<textElement textAlignment="Right" verticalAlignment="Bottom">
 					<font isBold="true"/>
 				</textElement>
-				<text><![CDATA[Rupees in Lakh]]></text>
+				<text><![CDATA[Kwacha in Millions]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="241" y="51" width="165" height="20"/>

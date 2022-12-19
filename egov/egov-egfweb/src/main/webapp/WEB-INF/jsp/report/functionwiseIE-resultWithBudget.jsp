@@ -111,7 +111,7 @@ window.open(url,"MajorAndMinorCodewiseReprt","height=650,width=900,scrollbars=ye
 													format="dd/MM/yyyy" /></strong></td>
 										<td colspan="11" class="blueborderfortd">
 											<div style="text-align: right">
-												<strong>Amount in Rupees&nbsp;&nbsp;
+												<strong>Amount in Kwacha(ZMW)&nbsp;&nbsp;
 													&nbsp;&nbsp;&nbsp;</strong>
 											</div>
 										</td>
@@ -332,7 +332,7 @@ window.open(url,"MajorAndMinorCodewiseReprt","height=650,width=900,scrollbars=ye
 													format="dd/MM/yyyy" /></strong></td>
 										<td colspan="9" class="blueborderfortd">
 											<div style="text-align: right">
-												<strong>Amount in Rupees&nbsp;&nbsp;
+												<strong>Amount in Kwacha(ZMW)&nbsp;&nbsp;
 													&nbsp;&nbsp;&nbsp;</strong>
 											</div>
 										</td>

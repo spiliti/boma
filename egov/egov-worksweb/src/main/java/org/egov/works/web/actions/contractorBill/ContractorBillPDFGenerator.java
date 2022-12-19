@@ -254,7 +254,7 @@ public class ContractorBillPDFGenerator extends AbstractPDFGenerator {
 
     protected void createFooter() throws DocumentException {
         document.add(makePara(
-                "Received( Rs---------------) Rupees-------------------------------------------------------------------------------------------\n"
+                "Received( ZMW--------------) Kwacha-------------------------------------------------------------------------------------------\n"
                         +
                         "only as a final payment in settlement of all demands in( Vernacular)---------------------------------------------------\n"
                         +

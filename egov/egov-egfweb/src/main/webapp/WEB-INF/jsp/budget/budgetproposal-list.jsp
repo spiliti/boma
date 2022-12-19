@@ -91,7 +91,7 @@
 
 								<s:set var="validButtons" value="%{validActions}" />
 								<s:else>
-									<div align="right" class="extracontent">Amount in Rupees
+									<div align="right" class="extracontent">Amount in Kwacha(ZMW)
 									</div>
 								</s:else>
 

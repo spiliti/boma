@@ -92,7 +92,7 @@ function update(obj)
 //	bootbox.alert("calling update");
    	var name=obj.name;
   // 	bootbox.alert(name);
-    var factor='Rupees'; 
+    var factor='Kwacha'; 
    	<s:if test="%{isConsolidatedScreen()}">
    	factor='thousand';
    	</s:if>

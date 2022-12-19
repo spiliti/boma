@@ -193,7 +193,7 @@ public class ContractorBillPDFAction extends BaseFormAction {
         pdfLabel.put("contractorbill.pdf.lastbill", "Since Last Bill ");
 
         pdfLabel.put("contractorbill.pdf.valueofworkdone", "Value of Work Done ");
-        pdfLabel.put("contractorbill.pdf.netamount", "Net amount payable (Rupees (in words)) ");
+        pdfLabel.put("contractorbill.pdf.netamount", "Net amount payable (Kwacha (in words)) ");
         // approval details
         pdfLabel.put("contractorbill.pdf.preparedby", "Approved By:");
         pdfLabel.put("contractorbill.pdf.checkedby", "Checked By:");

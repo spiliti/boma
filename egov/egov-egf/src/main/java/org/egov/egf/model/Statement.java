@@ -102,12 +102,12 @@ public class Statement {
 
     public void setCurrency(final String currency) {
         this.currency = currency;
-        if (this.currency.equalsIgnoreCase("rupees"))
+        if (this.currency.equalsIgnoreCase("kwacha"))
             currencyInAmount = new BigDecimal(1);
         if (this.currency.equalsIgnoreCase("thousands"))
             currencyInAmount = new BigDecimal(1000);
-        if (this.currency.equalsIgnoreCase("lakhs"))
-            currencyInAmount = new BigDecimal(100000);
+        if (this.currency.equalsIgnoreCase("millions"))
+            currencyInAmount = new BigDecimal(1000000);
     }
 
     public void setDepartment(final Department department) {
