@@ -260,7 +260,7 @@
             <div class="modal-body font-12">
                 <p>This website is designed, developed and maintained by
                     eGovernments Foundation under the supervision of
-                    ${sessionScope.citymunicipalityname}, India.</p>
+                    ${sessionScope.citymunicipalityname}, Zambia.</p>
 
                 <p>Though all efforts have been made to ensure the accuracy and
                     currency of the content on this website, the same should not be
@@ -275,9 +275,9 @@
                     damage whatsoever arising from use, or loss of use, of data,
                     arising out of or in connection with the use of this website.
                     These terms and conditions shall be governed by and construed in
-                    accordance with the Indian Laws. Any dispute arising under these
+                    accordance with the Zambian Laws. Any dispute arising under these
                     terms and conditions shall be subject to the jurisdiction of the
-                    courts of India.</p>
+                    courts of Zambia.</p>
 
                 <p>The information posted on this website could include
                     hypertext links or pointers to information created and maintained
@@ -293,7 +293,7 @@
                     copyrighted materials contained in linked websites. Users are
                     advised to request such authorisation from the owner of the linked
                     website. ${sessionScope.citymunicipalityname}, does not guarantee that linked
-                    websites comply with Indian Government Web Guidelines.</p>
+                    websites comply with Zambian Government Web Guidelines.</p>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal"><spring:message code="lbl.close"/></button>
