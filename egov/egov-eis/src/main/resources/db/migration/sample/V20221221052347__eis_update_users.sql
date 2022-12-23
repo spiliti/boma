@@ -2,7 +2,7 @@
 -- Boundary type
 --egeis-employee - update employment and date of retirement - None
 
-update egeis_employee set dateofretirement = '2025-12-31'
+update egeis_employee set dateofretirement = '2025-12-31';
 --- eg_role replace  
 
 UPDATE eg_role SET name = 'System Administrator' where id = 4;
