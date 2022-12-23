@@ -84,8 +84,8 @@ public final class LocalizationSettings {
     public static final String DEFAULT_CURRENCY_UNIT_NAME = "Ngwee";
     public static final String DEFAULT_CURRENCY_UNIT_NAME_PLURAL = "Ngwee";
     public static final String DEFAULT_CURRENCY_NAME_SHORT = "ZMW.";
-/*    public static final String DEFAULT_CURRENCY_SYMBOL_UTF8 = "\u20B9";
-  public static final String DEFAULT_CURRENCY_SYMBOL_HEX = "&#x20b9;";  */
+    public static final String DEFAULT_CURRENCY_SYMBOL_UTF8 = "\u20B9";
+    public static final String DEFAULT_CURRENCY_SYMBOL_HEX = "&#x20b9;";  
     public static final String DEFAULT_LOCALE = "en_ZM";
     public static final String DEFAULT_ENCODING = "UTF-8";
 
