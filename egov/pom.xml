@@ -177,7 +177,7 @@ end shuller's edit -->
         <javax-mail-version>1.6.1</javax-mail-version>
         <javax-el-version>3.0.1-b10</javax-el-version>
         <xerces-version>2.12.0.SP02</xerces-version>
-        <postgres-version>42.2.5</postgres-version>
+        <postgres-version>42.3.7</postgres-version>
 
         <!-- Other application dependency versions -->
         <struts2-version>2.5.18</struts2-version>
