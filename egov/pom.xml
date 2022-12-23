@@ -165,7 +165,7 @@ end shuller's edit -->
         <db.password/>
         <disable.drop.db>true</disable.drop.db>
         <!-- Application server provided dependency versions -->
-        <hibernate-version>5.3.6.Final</hibernate-version>
+        <hibernate-version>5.3.20.Final</hibernate-version>
         <hibernate-search-version>5.10.3.Final</hibernate-search-version>
         <hibernate-validator-version>6.0.13.Final</hibernate-validator-version>
         <hibernate-infinispan-cache-version>9.3.0.Final</hibernate-infinispan-cache-version>
