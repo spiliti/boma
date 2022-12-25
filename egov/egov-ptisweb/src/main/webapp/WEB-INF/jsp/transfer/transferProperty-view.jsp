@@ -331,7 +331,7 @@
 									<tr>
 										<%-- <th class="bluebgheadtd"><s:text name="adharno" /></th> --%>
 										<th class="bluebgheadtd"><s:text name="MobileNumber" />(without
-											+91)</th>
+											+260)</th>
 										<th class="bluebgheadtd"><s:text name="OwnerName" /></th>
 										<th class="bluebgheadtd"><s:text name="gender" /></th>
 										<th class="bluebgheadtd"><s:text name="EmailAddress" /></th>

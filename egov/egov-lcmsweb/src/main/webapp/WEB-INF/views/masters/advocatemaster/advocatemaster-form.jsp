@@ -113,10 +113,10 @@
 							code="lbl.mobilenumber" />:<span class="mandatory"></span></label>
 					<div class="col-sm-3 add-margin">
 						<div class="input-group">
-							<span class="input-group-addon">+91</span>
+							<span class="input-group-addon">+260</span>
 							<form:input type="text" path="mobileNumber" id="mobileNumber"
-								data-inputmask="'mask': '9999999999'" required="required"
-								cssClass="form-control" maxlength="12" data-pattern="number"
+								data-inputmask="'mask': '999999999'" required="required"
+								cssClass="form-control" maxlength="9" data-pattern="number"
 								placeholder="Mobile Number" />
 						</div>
 						<form:errors path="mobileNumber" cssClass="add-margin error-msg" />

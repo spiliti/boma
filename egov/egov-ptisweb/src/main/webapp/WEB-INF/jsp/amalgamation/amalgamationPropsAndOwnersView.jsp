@@ -93,7 +93,7 @@
 			<tr>
 				<!-- <th class="text-center"><s:text name="adharno" /></th> -->
 				<th class="text-center"><s:text name="MobileNumber" />
-					(without +91)</th>
+					(without +260)</th>
 				<th class="text-center"><s:text name="OwnerName" /></th>
 				<th class="text-center"><s:text name="gender" /></th>
 				<th class="text-center"><s:text name="EmailAddress" /></th>

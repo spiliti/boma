@@ -127,7 +127,7 @@
 		</td>
 		<td class="bluebox">
 			<div>
-				+91
+				+260
 				<s:textfield name="propertyAddr.mobileNo" maxlength="10"
 					onblur="validNumber(this);checkZero(this,'Mobile Number');"
 					value="%{propertyAddr.mobileNo}" />

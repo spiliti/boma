@@ -136,8 +136,8 @@
 										</div>
 										
 										<div class="col-sm-3 add-margin">
-											<form:input type="text" path="mobileNumber" id="mobileNumber" data-inputmask="'mask': '9999999999'" 
-											required="required" cssClass="form-control" maxlength="10" placeholder="Mobile Number"/>
+											<form:input type="text" path="mobileNumber" id="mobileNumber" data-inputmask="'mask': '999999999'" 
+											required="required" cssClass="form-control" maxlength="9" placeholder="Mobile Number"/>
 											<form:errors path="mobileNumber" cssClass="add-margin error-msg"/>
 										</div>
 																				

@@ -96,8 +96,8 @@
 						</label>
 						<div class="col-sm-3 col-md-3 add-margin">
 							<input type="text" name="mobileNumber" id="mobileNumber"
-								class="form-control is_valid_number" maxlength="10"
-								data-inputmask="'mask': '9999999999'" id="app-appcodo" min="10" />
+								class="form-control is_valid_number" maxlength="9"
+								data-inputmask="'mask': '999999999'" id="app-appcodo" min="9" />
 						</div>
 					</div>
 					<div class="form-group" id="boundaryAndDoorNumberDiv">

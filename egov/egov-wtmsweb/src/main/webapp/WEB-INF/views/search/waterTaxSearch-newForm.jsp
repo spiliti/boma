@@ -78,8 +78,8 @@
                                     code="lbl.mobileNo"/></label>
                             <div class="col-md-4 add-margin">
                                 <form:input path="mobileNumber" type="text" id="mobileNumber"
-                                            class="form-control is_valid_number" maxlength="10"
-                                            data-inputmask="'mask': '9999999999'" min="10"/>
+                                            class="form-control is_valid_number" maxlength="9"
+                                            data-inputmask="'mask': '999999999'" min="9"/>
                             </div>
                         </div>
                     </c:if>

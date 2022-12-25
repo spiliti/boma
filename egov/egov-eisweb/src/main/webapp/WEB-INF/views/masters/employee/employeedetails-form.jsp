@@ -105,10 +105,10 @@
 						</div>
 						<div class="col-md-3 col-xs-6 add-margin view-content">
 							<div class="input-group">
-								<span class="input-group-addon">+91</span>
+								<span class="input-group-addon">+260</span>
 								<form:input type="text" path="mobileNumber" id="mobileNumber"
-									data-inputmask="'mask': '9999999999'" required="required"
-									cssClass="form-control" maxlength="10"
+									data-inputmask="'mask': '999999999'" required="required"
+									cssClass="form-control" maxlength="9"
 									placeholder="Mobile Number" />
 							</div>
 							<form:errors path="mobileNumber" cssClass="add-margin error-msg" />
@@ -130,8 +130,8 @@
 						<div class="col-md-3 col-xs-6 add-margin view-content">
 							<div class="input-group">
 								<form:input type="text" path="altContactNumber" id="altcontact"
-									cssClass="form-control" data-inputmask="'mask': '9999999999'"
-									maxlength="10" placeholder="Mobile Number" />
+									cssClass="form-control" data-inputmask="'mask': '999999999'"
+									maxlength="9" placeholder="Mobile Number" />
 							</div>
 						</div>
 

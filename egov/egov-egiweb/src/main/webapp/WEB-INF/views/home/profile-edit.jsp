@@ -93,8 +93,8 @@
                         <label class="col-sm-3 control-label"><spring:message code="lbl.mobile"/><span class="mandatory set-mandatory"></span></label>
                         <div class="col-sm-3 add-margin">
                             <div class="input-group">
-                                <span class="input-group-addon">+91</span>
-                                <form:input path="mobileNumber" cssClass="form-control" data-inputmask="'mask': '9999999999'" id="mobileNumber" placeholder="Mobile Number" maxlength="10" disabled="true" required="required"/>
+                                <span class="input-group-addon">+260</span>
+                                <form:input path="mobileNumber" cssClass="form-control" data-inputmask="'mask': '999999999'" id="mobileNumber" placeholder="Mobile Number" maxlength="9" disabled="true" required="required"/>
                             </div>
                             <form:errors path="mobileNumber" cssClass="add-margin error-msg"/>
                         </div>
@@ -113,7 +113,7 @@
                         <label class="col-sm-3 control-label"><spring:message code="lbl.alt.contct.no"/></label>
 
                         <div class="col-sm-3 add-margin">
-                            <form:input path="altContactNumber" cssClass="form-control" data-inputmask="'mask': '9999999999'" id="altContactNumber" placeholder="8080808080" maxlength="10"/>
+                            <form:input path="altContactNumber" cssClass="form-control" data-inputmask="'mask': '999999999'" id="altContactNumber" placeholder="808080808" maxlength="9"/>
                         </div>
 
                         <label class="col-sm-2 control-label">

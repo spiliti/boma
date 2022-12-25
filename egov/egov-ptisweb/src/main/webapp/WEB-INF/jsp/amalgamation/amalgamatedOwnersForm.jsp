@@ -57,7 +57,7 @@
 			<tr>
 				<!-- <th class="text-center"><s:text name="adharno" /></th> -->
 				<th class="text-center"><s:text name="MobileNumber" /> <span
-					class="mandatory1">*</span> (without +91)</th>
+					class="mandatory1">*</span> (without +260)</th>
 				<th class="text-center"><s:text name="OwnerName" /><span
 					class="mandatory1">*</span></th>
 				<th class="text-center"><s:text name="gender" /><span

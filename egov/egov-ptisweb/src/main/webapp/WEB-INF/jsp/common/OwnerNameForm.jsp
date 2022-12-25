@@ -66,7 +66,7 @@
 		   <s:textfield name="basicProperty.propertyOwnerInfoProxy[0].owner.aadhaarNumber" value="%{basicProperty.propertyOwnerInfoProxy[0].owner.aadhaarNumber}" id="aadharNo" cssClass="txtaadhar" size="12" maxlength="12"  data-idx="0" onblur="getAadharDetails(this);"></s:textfield>
 		</td> --%>
 		 <td class="blueborderfortd" align="center">
-        	+91 <s:textfield name="basicProperty.propertyOwnerInfoProxy[0].owner.mobileNumber" title="Mobile number of the owner" maxlength="10" size="20" id="mobileNumber"  value="%{basicProperty.propertyOwnerInfoProxy[0].owner.mobileNumber}" 
+        	+260 <s:textfield name="basicProperty.propertyOwnerInfoProxy[0].owner.mobileNumber" title="Mobile number of the owner" maxlength="10" size="20" id="mobileNumber"  value="%{basicProperty.propertyOwnerInfoProxy[0].owner.mobileNumber}" 
         		onblur="getUserDetailsForMobileNo(this);validNumber(this);checkZero(this,'Mobile Number');" data-idx="0" data-optional="0" data-errormsg="Mobile no is mandatory!"/>
 		<td class="blueborderfortd" align="center">
         	<s:textfield name="basicProperty.propertyOwnerInfoProxy[0].owner.name" title="Owner of the Property" maxlength="74" size="20" id="ownerName"  value="%{basicProperty.propertyOwnerInfoProxy[0].owner.name}" 
@@ -111,7 +111,7 @@
 			  value="%{basicProperty.propertyOwnerInfoProxy[#ownerStatus.index].owner.aadhaarNumber}" data-idx="%{#ownerStatus.index}" onblur="getAadharDetails(this);" cssClass="txtaadhar"></s:textfield>
 			  </td> --%>
 			  <td class="blueborderfortd" align="center">
-        			+91 <s:textfield name="basicProperty.propertyOwnerInfoProxy[%{#ownerStatus.index}].owner.mobileNumber" maxlength="10" size="20" id="mobileNumber" value="%{basicProperty.propertyOwnerInfoProxy[#ownerStatus.index].owner.mobileNumber}" 
+        			+260 <s:textfield name="basicProperty.propertyOwnerInfoProxy[%{#ownerStatus.index}].owner.mobileNumber" maxlength="10" size="20" id="mobileNumber" value="%{basicProperty.propertyOwnerInfoProxy[#ownerStatus.index].owner.mobileNumber}" 
         				onblur="getUserDetailsForMobileNo(this);validNumber(this);checkZero(this,'Mobile Number');" data-idx="%{#ownerStatus.index}" data-optional="0" data-errormsg="Mobile no is mandatory!" />
         		</td>
         		<td class="blueborderfortd" align="center">

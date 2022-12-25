@@ -50,7 +50,7 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0" class="tablebottom" id="nameTable" >
   <tr>
 	<%-- <th class="bluebgheadtd"><s:text name="adharno"/></th> --%>
-	<th class="bluebgheadtd"><s:text name="MobileNumber" /> (without +91)</th>
+	<th class="bluebgheadtd"><s:text name="MobileNumber" /> (without +260)</th>
     <th class="bluebgheadtd"><s:text name="OwnerName"/></th>
     <th class="bluebgheadtd"><s:text name="gender"/></th>
 	<th class="bluebgheadtd"><s:text name="EmailAddress"/></th>

@@ -83,7 +83,7 @@
 						value="%{basicProperty.propertyOwnerInfoProxy[0].owner.aadhaarNumber}"
 						id="aadharNo" cssClass="txtaadhar" size="12" maxlength="12"
 						data-idx="0" onblur="getAadharDetails(this);"></s:textfield></td> --%>
-				<td class="blueborderfortd" align="center">+91 <s:textfield
+				<td class="blueborderfortd" align="center">+260 <s:textfield
 						name="basicProperty.propertyOwnerInfoProxy[0].owner.mobileNumber"
 						title="Mobile number of the owner" maxlength="10" size="20"
 						id="mobileNumber"
@@ -158,7 +158,7 @@
 							value="%{basicProperty.propertyOwnerInfoProxy[#ownerStatus.index].owner.aadhaarNumber}"
 							data-idx="%{#ownerStatus.index}" onblur="getAadharDetails(this);"
 							cssClass="txtaadhar"></s:textfield></td> --%>
-					<td class="blueborderfortd" align="center">+91 <s:textfield
+					<td class="blueborderfortd" align="center">+260 <s:textfield
 							name="basicProperty.propertyOwnerInfoProxy[%{#ownerStatus.index}].owner.mobileNumber"
 							maxlength="10" size="20" id="mobileNumber"
 							value="%{basicProperty.propertyOwnerInfoProxy[#ownerStatus.index].owner.mobileNumber}"

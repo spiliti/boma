@@ -78,8 +78,8 @@
     <label class="col-sm-3 control-label text-right"><spring:message code='search.licensee.mobileNo'/><span class="mandatory"></span></label>
     <div class="col-sm-3 add-margin" style="margin-bottom:15px;">
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon1">+91</span>
-            <form:input path="licensee.mobilePhoneNumber" id="mobilePhoneNumber" maxlength="10" required="true"
+            <span class="input-group-addon" id="basic-addon1">+260</span>
+            <form:input path="licensee.mobilePhoneNumber"  required="true"id="mobilePhoneNumber" maxlength="9"
                         cssClass="form-control patternvalidation" data-pattern="number" value="${licensee.mobilePhoneNumber}"/>
         </div>
         <div class="error-msg hide" path="licensee.mobilePhoneNumber" id="mobileError">Should be 10 digits</div>

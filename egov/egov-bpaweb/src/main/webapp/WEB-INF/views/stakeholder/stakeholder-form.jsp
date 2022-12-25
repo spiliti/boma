@@ -118,9 +118,9 @@
 			code="lbl.mobileNo" /><span class="mandatory"></span></label>
 	<div class="col-sm-3 add-margin">
 		<form:input type="text" cssClass="form-control patternvalidation mobileno-field"
-			data-pattern="number" data-inputmask="'mask': '9999999999'"
-			placeholder="Mobile Number" path="mobileNumber" minlength="10"
-			maxlength="10" id="mobileNumber" required="required" />
+			data-pattern="number" data-inputmask="'mask': '999999999'"
+			placeholder="Mobile Number" path="mobileNumber" minlength="9"
+			maxlength="9" id="mobileNumber" required="required" />
 		<form:errors path="mobileNumber" cssClass="error-msg" />
 	</div>
 	<label class="col-sm-2 control-label text-right"><spring:message

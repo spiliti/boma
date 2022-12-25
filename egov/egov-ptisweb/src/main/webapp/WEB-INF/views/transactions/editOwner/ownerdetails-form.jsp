@@ -338,7 +338,7 @@ body {
 													</c:choose> --%>
 													<td class="blueborderfortd" align="center"><form:input
 															path="propertyOwnerInfo[${status.index}].owner.mobileNumber"
-															id="mobileNumber" maxlength="10"
+															id="mobileNumber" maxlength="9"
 															cssClass="form-control patternvalidation"
 															data-pattern="number" readonly="true" /> <form:hidden
 															path="ownerAudit[${status.index}].mobileNo" /></td>
@@ -381,7 +381,7 @@ body {
 															path="ownerAudit[${status.index}].aadhaarNo" /></td> --%>
 													<td class="blueborderfortd" align="center"><form:input
 															path="propertyOwnerInfo[${status.index}].owner.mobileNumber"
-															id="mobileNumber" maxlength="10"
+															id="mobileNumber" maxlength="9"
 															cssClass="form-control patternvalidation"
 															data-pattern="number" readonly="false" /> <form:hidden
 															path="ownerAudit[${status.index}].mobileNo" /></td>
@@ -424,7 +424,7 @@ body {
 													<td class="blueborderfortd" align="center"><form:input
 															path="propertyOwnerInfo[${status.index}].owner.mobileNumber"
 															cssClass="form-control patternvalidation"
-															data-pattern="number" id="mobileNumber" maxlength="10" />
+															data-pattern="number" id="mobileNumber" maxlength="9" />
 														<form:hidden path="ownerAudit[${status.index}].mobileNo" />
 													</td>
 													<td class="blueborderfortd" align="center"><form:input

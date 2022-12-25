@@ -300,7 +300,7 @@ var makeContractorDataTable = function() {
 					name="depositworks.applicant.mobile" />
 			</label>
 			<div class="col-sm-3 add-margin">
-				<s:textfield name="mobileNumber" id="mobileNumber" maxlength="10"
+				<s:textfield name="mobileNumber" id="mobileNumber" maxlength="9"
 					cssClass="form-control" value="%{mobileNumber}" />
 			</div>
 		</div>

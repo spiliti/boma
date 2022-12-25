@@ -372,7 +372,7 @@
 											data-pattern="number" id="aadharNumber" maxlength="12"
 											readonly="true" /></td>
 									<td class="blueborderfortd" align="center"><form:input
-											path="" id="mobileNumber" maxlength="10"
+											path="" id="mobileNumber" maxlength="9"
 											cssClass="form-control patternvalidation"
 											data-pattern="number" readonly="true" /></td>
 									<td class="blueborderfortd" align="center"><form:input
@@ -461,7 +461,7 @@
 										</c:otherwise>
 									</c:choose>
 									<td class="blueborderfortd" align="center"><form:input
-											path="" id="mobileNumber" maxlength="10"
+											path="" id="mobileNumber" maxlength="9"
 											cssClass="form-control patternvalidation"
 											data-pattern="number" readonly="true" /></td>
 									<td class="blueborderfortd" align="center"><form:input
