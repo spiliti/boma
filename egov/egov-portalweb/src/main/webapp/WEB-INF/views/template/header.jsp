@@ -93,7 +93,7 @@
                     </li>
 
                     <li class="ico-menu">
-                        <a href="http://www.egovernments.org" data-strwindname="egovsite" class="open-popup">
+                        <a href="http://www.zm4a.org" data-strwindname="egovsite" class="open-popup">
                             <img src="<cdn:url value='/resources/global/images/logo@2x.png' context="/egi"/>" title="An eGovZM Solution!" height="20px">
                         </a>
                     </li>

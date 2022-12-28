@@ -114,7 +114,7 @@
         </div>
         <span class="navbar-brand pull-right egov-logo-right" style="color:#FFF">
 		    <!-- span class="title"></span-->
-		    <a href="http://www.egovernments.org" target="_blank">
+		    <a href="http://www.zm4a.org" target="_blank">
 			   <img src="<cdn:url value='/resources/global/images/logo@2x.png' context='/egi'/>" title="An eGovZM Solution!" height="20px">
 			</a>
 		    </span>
@@ -144,7 +144,7 @@
 </nav>
 <tiles:insertAttribute name="body"/>
 <footer class="footer">
-    <div style="margin-top: 20px;padding: 5px 19px;font-size: 12px;background: #F1F2F3;">Powered by <a href="http://egovernments.org/" target="_blank">eGovernments Foundation</a></div>
+    <div style="margin-top: 20px;padding: 5px 19px;font-size: 12px;background: #F1F2F3;">Pamodzi Govtech ZM</a></div>
 </footer>
 </body>
 <script src="<cdn:url value='/resources/global/js/bootstrap/bootstrap.js' context='/egi'/>"></script>

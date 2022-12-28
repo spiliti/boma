@@ -102,7 +102,7 @@
                 <div class="nav-right-menu col-md-2 col-xs-2">
                     <ul class="hr-menu text-right">
                         <li class="ico-menu">
-                            <a href="http://www.egovernments.org" data-strwindname="egovsite" class="open-popup">
+                            <a href="http://www.zm4a.org" data-strwindname="egovsite" class="open-popup">
                                 <img src="<cdn:url value='/resources/global/images/egov_logo_tr_h.png' context='/egi'/>" title="An eGovZM Solution!" height="37" alt="">
                             </a>
                         </li>

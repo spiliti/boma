@@ -74,7 +74,7 @@ Welcome <span class='bold' style='color:#cccccc'>${username}</span></div>
 			<div class="nav-right-menu col-md-2 col-xs-2">
 				<ul class="hr-menu text-right">
 					<li class="ico-menu">
-						<a href="http://www.egovernments.org" target="_blank">
+						<a href="http://www.zm4a.org" target="_blank">
 							<img src="<cdn:url cdn='${applicationScope.cdn}' value='/resources/global/images/logo@2x.png' context='/egi'/>" title="An eGovZM Solution!" height="20px">
 						</a>
 					</li>

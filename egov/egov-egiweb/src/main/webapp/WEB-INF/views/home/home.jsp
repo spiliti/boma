@@ -190,7 +190,7 @@
                 </li>
 
                 <li class="dropdown">
-                    <a href="http://www.egovernments.org" target="_blank">
+                    <a href="http://www.zm4a.org" target="_blank">
                         <img src="<cdn:url value='/resources/global/images/logo@2x.png'/>" title="An eGovZM Solution!" height="25px" style="padding-top:5px">
                     </a>
                 </li>
@@ -300,7 +300,7 @@
                 <c:set var="now" value="<%=new org.joda.time.DateTime()%>"/>
                 <span class="copyright">
                     <spring:message code="lbl.copyright"/> <span><i class="fa fa-copyright"></i></span> <joda:format value="${now}" pattern="yyyy"/>
-                    <a href="http://www.egovernments.org" target="_blank"> <spring:message code="lbl.egov.foundation"/>.<sup>&reg;</sup></a></span>
+                    <a href="http://www.zm4a.org" target="_blank"> <spring:message code="lbl.egov.foundation"/>.<sup>&reg;</sup></a></span>
                 <span class="version">eGov ERP - ${homePageResponse.appVersion}_${homePageResponse.appBuildNo}
                     <c:if test="${not empty homePageResponse.appCoreBuildNo}"> @ Core - ${homePageResponse.appCoreBuildNo}</c:if></span>
             </div>

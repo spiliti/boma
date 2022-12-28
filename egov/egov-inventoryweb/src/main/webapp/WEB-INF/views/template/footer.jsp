@@ -38,5 +38,5 @@
   ~   In case of any queries, you can reach eGovernments Foundation at contact@egovernments.org.
   --%>
 <footer class="main">
-    Powered by <a href="http://egovernments.org/" target="_blank">eGovernments Foundation</a>
+    Pamodzi Govtech ZM</a>
 </footer>
