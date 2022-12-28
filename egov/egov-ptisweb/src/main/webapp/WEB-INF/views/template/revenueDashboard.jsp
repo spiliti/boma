@@ -121,7 +121,7 @@
 		    <span class="navbar-brand pull-right egov-logo-right"  style="color:#FFF">
 		    <!-- span class="title"></span-->
 		    <a href="http://www.egovernments.org" target="_blank">
-			   <img src="<cdn:url value='/resources/global/images/logo@2x.png' context='/egi'/>" title="Powered by eGovernments" height="20px">
+			   <img src="<cdn:url value='/resources/global/images/logo@2x.png' context='/egi'/>" title="An eGovZM Solution!" height="20px">
 			</a>
 		    </span>		    
 		    <div class="collapse navbar-collapse" id="myNavbar">
