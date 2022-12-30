@@ -66,7 +66,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="description" content="eGov Urban Portal"/>
     <meta name="author" content="eGovernments Foundation"/>
-    <title>eGov Portal Login</title>
+    <title>eMunicipal Portal Login</title>
     <link rel="icon" href="<cdn:url value='/resources/global/images/favicon.png'/>" sizes="32x32">
     <link rel="stylesheet" href="<cdn:url value='/resources/global/css/bootstrap/bootstrap.css'/>">
     <link rel="stylesheet" href="<cdn:url value='/resources/global/css/font-icons/font-awesome/css/font-awesome.min.css'/>">
