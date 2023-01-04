@@ -50,7 +50,7 @@
 		<meta name="description" content="eGov Urban Portal" />
 		<meta name="author" content="" />
 		
-		<title>eGov Urban Portal</title>
+		<title>Local eGov Portal</title>
 		
 		<link rel="icon" href="<c:url value='/resources/global/images/favicon.png' context='/egi'/>" sizes="32x32">
 	    <link rel="stylesheet" href="<c:url value='/resources/global/css/bootstrap/bootstrap.css' context='/egi'/>">
