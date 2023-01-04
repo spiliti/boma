@@ -64,7 +64,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <meta name="description" content="eGov Urban Portal"/>
+    <meta name="description" content="Local eGov Portal"/>
     <meta name="author" content="eGovernments Foundation"/>
     <title>eMunicipal Portal Login</title>
     <link rel="icon" href="<cdn:url value='/resources/global/images/favicon.png'/>" sizes="32x32">
@@ -96,7 +96,7 @@
                     <ul class="hr-menu text-right">
                         <li class="ico-menu">
                             <a href="http://www.zm4a.org" data-strwindname="egovsite" class="open-popup">
-                                <img src="<cdn:url value='/resources/global/images/egov_logo_tr_h.png'/>" title="An eGovZM Solution!" height="37" alt="">
+                                <img src="<cdn:url value='/resources/global/images/egov_logo_tr_h.png'/>" title="A Pamodzi Govtech Solution!" height="37" alt="">
                             </a>
                         </li>
                     </ul>
