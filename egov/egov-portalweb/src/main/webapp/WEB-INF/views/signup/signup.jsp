@@ -95,7 +95,7 @@
                     <a class="navbar-brand" href="javascript:void(0);">
                         <img src="<c:url value='/downloadfile/logo' context='/egi'/>" height="60">
                         <div>
-                            <span class="title2">${sessionScope.citymunicipalityname}</span>
+                            <span class="title2">Mapepe City Council</span>
                         </div>
                     </a>
                 </div>

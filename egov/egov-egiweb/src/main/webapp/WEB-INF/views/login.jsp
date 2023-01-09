@@ -89,6 +89,7 @@
                     <a class="navbar-brand" href="javascript:void(0);"> <img src="/egi/downloadfile/logo" height="60">
                         <div>
                             <span class="title2">Mapepe City Council</span> 
+                        <!--    <span class="title2">Mapepe City Council</span> -->                            
                         </div>
                     </a>
                 </div>

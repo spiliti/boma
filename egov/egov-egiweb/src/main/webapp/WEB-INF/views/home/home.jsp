@@ -118,7 +118,8 @@
             </div>
 
             <div class="navbar-brand">
-                <h3 class="horizontal-page-title homepage hidden-xs hidden-sm" id="hp-citizen-title">${sessionScope.citymunicipalityname}</h3>
+                <h3 class="horizontal-page-title homepage hidden-xs hidden-sm" id="hp-citizen-title">Mapepe city Council</h3>
+                <!-- ${sessionScope.citymunicipalityname}</h3> -->
             </div>
             <!-- notifications and other links -->
             <ul class="nav navbar-right pull-right">

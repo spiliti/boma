@@ -53,7 +53,7 @@
 <tiles-definitions>
 
     <definition name="base_layout" template="/WEB-INF/views/template/main.jsp">
-        <put-attribute name="title" value="eGov Urban Portal"/>
+        <put-attribute name="title" value="eGovZM Portal"/>
         <put-attribute name="header" value="/WEB-INF/views/template/header.jsp"/>
         <put-attribute name="body" value=""/>
         <put-attribute name="footer" value="/WEB-INF/views/template/footer.jsp"/>
@@ -73,7 +73,7 @@
     <definition name="login" template="/WEB-INF/views/login.jsp"/>
 
     <definition name="home" template="/WEB-INF/views/home/home.jsp">
-        <put-attribute name="title" value="eGov Urban Portal"/>
+        <put-attribute name="title" value="eGovZM Portal"/>
     </definition>
 
     <definition name="help" extends="base_layout">
