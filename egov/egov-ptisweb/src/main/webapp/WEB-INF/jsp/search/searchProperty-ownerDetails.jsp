@@ -59,14 +59,14 @@
             	 }
         	 var mobileNo = jQuery("#mobileNumber").val();
         	 if(mobileNo.length < 10) {
-				  bootbox.alert("Please enter 10 digit mobile number");
+				  bootbox.alert("Please enter 9 digit mobile number");
 	              return false;
 				  }
              }); 
 		jQuery("#mobileNumber").blur(function(e){
 			  var mobileNo = jQuery("#mobileNumber").val();
 			  if(mobileNo.length < 10) {
-				  bootbox.alert("Please enter 10 digit mobile number");
+				  bootbox.alert("Please enter 9 digit mobile number");
 	              return false;
 				  }
 			});

@@ -183,7 +183,7 @@ $(document).ready( function () {
 $('#txt-phoneNo').blur( function () {
 	 var mobileno = jQuery("#txt-phoneNo").val();
 		if (mobileno.length < 10) {
-			bootbox.alert("Please enter 10 digit mobile number");
+			bootbox.alert("Please enter 9 digit mobile number");
 			$(this).val('');
 		}
 	})

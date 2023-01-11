@@ -173,7 +173,7 @@
       		var aadharNo = jQuery(obj).val();
       		if(aadharNo.length<12){
       			jQuery(obj).val("");
-      			bootbox.alert("Invalid Aadhar number !");
+      			bootbox.alert("Invalid NRC Number !");
       			return false;
       		}
       	    jQuery.ajax({
@@ -214,7 +214,7 @@
       					jQuery("input[name='transfereeInfosProxy["+ rowidx +"].transferee.guardian']").val("");
       					jQuery("input[name='transfereeInfosProxy["+ rowidx +"].transferee.guardian']").attr('readonly', false);
       					if(aadharNo != "NaN") {
-      						bootbox.alert("Aadhar number is not valid");
+      						bootbox.alert("NRC Number is not valid");
       					}
       			   }
       	        	
@@ -226,7 +226,7 @@
       	        error:function()
       	        {
       	        	jQuery("input[name='transfereeInfosProxy["+ rowidx +"].transferee.aadhaarNumber']").val("");
-      	        	alert("Invalid Aadhar number or no details available with this Aadhar number!");
+      	        	alert("Invalid NRC Number or no details available with this NRC Number!");
       	        	return false;
       	        }
       	    });

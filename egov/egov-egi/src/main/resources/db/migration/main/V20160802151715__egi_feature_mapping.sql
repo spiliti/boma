@@ -35,7 +35,7 @@ INSERT INTO eg_feature(ID,NAME,DESCRIPTION,MODULE) VALUES (NEXTVAL('seq_eg_featu
 INSERT INTO eg_feature(ID,NAME,DESCRIPTION,MODULE) VALUES (NEXTVAL('seq_eg_feature'),'Feedback','Official sent Feedback',(select id from eg_module  where name = 'Administration'));
 INSERT INTO eg_feature(ID,NAME,DESCRIPTION,MODULE) VALUES (NEXTVAL('seq_eg_feature'),'Favourites','Add/Remove Favourites',(select id from eg_module  where name = 'Administration'));
 INSERT INTO eg_feature(ID,NAME,DESCRIPTION,MODULE) VALUES (NEXTVAL('seq_eg_feature'),'Common Administration','Common links for Administration Module',(select id from eg_module  where name = 'Administration'));
-INSERT INTO eg_feature(ID,NAME,DESCRIPTION,MODULE) VALUES (NEXTVAL('seq_eg_feature'),'Aadhaar Access','For Aadhaar Info Feature',(select id from eg_module  where name = 'Administration'));
+INSERT INTO eg_feature(ID,NAME,DESCRIPTION,MODULE) VALUES (NEXTVAL('seq_eg_feature'),'Aadhaar Access','For NRC Information Feature',(select id from eg_module  where name = 'Administration'));
 INSERT INTO eg_feature(ID,NAME,DESCRIPTION,MODULE) VALUES (NEXTVAL('seq_eg_feature'),'Officials Home Page','Home Page for Officials',(select id from eg_module  where name = 'Administration'));
 ------------------------------------ADDING FEATURE ENDS------------------------
 

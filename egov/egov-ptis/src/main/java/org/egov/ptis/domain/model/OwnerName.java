@@ -50,7 +50,7 @@ package org.egov.ptis.domain.model;
 import java.io.Serializable;
 
 /**
- * The OwnerName class is used to contain owner details such as aadhaar number,
+ * The OwnerName class is used to contain owner details such as NRC Number,
  * owner name and mobile number.
  * 
  * @author ranjit

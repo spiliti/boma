@@ -211,7 +211,7 @@ function checkPanNumber() {
 	var regpan = /^([a-zA-Z]){5}([0-9]){4}([a-zA-Z]){1}?$/;
 	if(!regpan.test(text)){
 		
-	    	bootbox.alert("Enter valid Pan Number.")
+	    	bootbox.alert("Enter valid TPIN Number.")
 	        window.scroll(0,0);
 	        return false;
 	        

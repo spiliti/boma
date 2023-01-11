@@ -337,7 +337,7 @@ jQuery(document).on('blur', ".txtaadhar", function () {
 				jQuery("input[name='amalgamationOwnersProxy["+ rowidx +"].owner.guardian']").val("");
 				jQuery("input[name='amalgamationOwnersProxy["+ rowidx +"].owner.guardian']").attr('readonly', false);
 				if(aadharNo != "NaN") {
-					bootbox.alert("Aadhar number is not valid");
+					bootbox.alert("NRC Number is not valid");
 				}
 		   }
         	

@@ -592,7 +592,7 @@
 								$('#submitform').attr('disabled', false);
 							}  else {
 								bootbox
-										.alert("There is no Data found with the Aadhar Number!");
+										.alert("There is no Data found with the NRC Number!");
 								$('#submitform').attr('disabled', true);
 							} 
 						});

@@ -125,7 +125,7 @@ function loadingReport()
 							  { "data" : "usageType", "title": "Usage Type"},
 							  { "data" : "category", "title": "Category"},
 							  { "data" : "pipeSizeInInch", "title": "H.S.C Pipe Size(Inches)","className": "text-center"},
-							  { "data" : "aadharNumber", "title": "Aaadhar No"},
+							  { "data" : "aadharNumber", "title": "ANRC number"},
 							  { "data" : "noOfPersons", "title": "No.Of Persons", "className": "text-right"},
 							  { "data" : "noOfFloors", "title": "No of floors", "className": "text-right"},
 							  { "data" : "sumpCapacity", "title": "Sump Capacity (Litres)", "className": "text-right"},

@@ -198,7 +198,7 @@ function submitForm(){
 			{title: 'SLA', data: 'sla'},
 			{title: 'Number of days delayed', data: 'delayedDays'},
 			{title: 'Applicant Name', data: 'applicantName'},
-			{title: 'Applicant Aadhar Number', data: 'aadharNumber'},
+			{title: 'Applicant NRC Number', data: 'aadharNumber'},
 			{title: 'Compensation Amount', data: 'compensationAmount'}
 			]
 		});

@@ -85,7 +85,7 @@ public class AadhaarInfoServiceClient {
             soapConnection.close();
             return aahaarInfo;
         } catch (SOAPException e) {
-            throw new ApplicationRuntimeException("Error occurred while getting Aadhaar Info", e);
+            throw new ApplicationRuntimeException("Error occurred while getting NRC Information", e);
         }
     }
 
@@ -98,7 +98,7 @@ public class AadhaarInfoServiceClient {
             soapMessage.saveChanges();
             return soapMessage;
         } catch (SOAPException e) {
-            throw new ApplicationRuntimeException("Error occurred while preparing Aadhaar Info request", e);
+            throw new ApplicationRuntimeException("Error occurred while preparing NRC Information request", e);
         }
     }
 
@@ -108,7 +108,7 @@ public class AadhaarInfoServiceClient {
                     .newInstance(Class.forName(clientImplClassFQN)).createUnmarshaller();
             return (AadhaarInfo) unmarshaller.unmarshal(soapResponseMessage.getSOAPBody().extractContentAsDocument());
         } catch (JAXBException | SOAPException | ClassNotFoundException e) {
-            throw new ApplicationRuntimeException("Error occurred while converting Aadhaar Info", e);
+            throw new ApplicationRuntimeException("Error occurred while converting NRC Information", e);
         }
     }
 

@@ -94,7 +94,7 @@
 							<th class="bluebgheadtd">Reference Number</th>
 							<th class="bluebgheadtd">Voucher Date</th>
 							<th class="bluebgheadtd">Party Name</th>
-							<th class="bluebgheadtd">PAN Number</th>
+							<th class="bluebgheadtd">TPIN Number</th>
 							<th class="bluebgheadtd">TotalDeduction(Rs)</th>
 							<th class="bluebgheadtd">Paid(Rs)</th>
 							<th class="bluebgheadtd">Pending(Rs)</th>
@@ -174,7 +174,7 @@
 							<th class="bluebgheadtd">Reference Number</th>
 							<th class="bluebgheadtd">Voucher Date</th>
 							<th class="bluebgheadtd">Party Name</th>
-							<th class="bluebgheadtd">PAN Number</th>
+							<th class="bluebgheadtd">TPIN Number</th>
 							<th class="bluebgheadtd">Payment Voucher</th>
 							<th class="bluebgheadtd">Remitted On</th>
 							<th class="bluebgheadtd">Payment Amount</th>
@@ -270,7 +270,7 @@
 							<th class="bluebgheadtd">Reference Number</th>
 							<th class="bluebgheadtd">Voucher Date</th>
 							<th class="bluebgheadtd">Party Name</th>
-							<th class="bluebgheadtd">PAN Number</th>
+							<th class="bluebgheadtd">TPIN Number</th>
 							<th class="bluebgheadtd">Payment Voucher</th>
 							<th class="bluebgheadtd">Remitted On</th>
 							<th class="bluebgheadtd">Payment Amount</th>

@@ -86,6 +86,6 @@ public class AadhaarInfoController {
     public ResponseEntity<ErrorResponse> exceptionHandler(Exception ex) {
         LOG.error("Error occurred while contacting SRDH web service", ex);
         return new ResponseEntity<>(new ErrorResponse("INFRA-001",
-                "Detail not found in uidai server for the given aadhaar no", HttpStatus.NOT_FOUND), HttpStatus.NOT_FOUND);
+                "Detail not found in uidai server for the given  NRC number", HttpStatus.NOT_FOUND), HttpStatus.NOT_FOUND);
     }
 }

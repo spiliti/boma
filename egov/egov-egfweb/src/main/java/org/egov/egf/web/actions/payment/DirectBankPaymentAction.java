@@ -492,10 +492,10 @@ public class DirectBankPaymentAction extends BasePaymentAction {
                     if (type.equalsIgnoreCase("Contractor") && (StringUtils.isBlank(entity.getPanno())
                             || StringUtils.isBlank(entity.getBankname()) || StringUtils.isBlank(entity.getBankaccount())
                             || StringUtils.isBlank(entity.getIfsccode()))) {
-                        LOGGER.error("BankAccount,IFSC Code, Pan number is mandatory for RTGS Payment for "
+                        LOGGER.error("BankAccount,IFSC Code, TPIN Number is mandatory for RTGS Payment for "
                                 + entity.getName());
                         errors.add(new ValidationError("paymentMode",
-                                "BankName, BankAccount,IFSC Code, Pan number is mandatory for RTGS Payment for "
+                                "BankName, BankAccount,IFSC Code, TPIN Number is mandatory for RTGS Payment for "
                                         + entity.getName()));
                         throw new ValidationException(errors);
 

@@ -1169,7 +1169,7 @@ public interface PropertyTaxConstants {
     public static final String THIRD_PARTY_PAYMENT_MODE_CHEQUE = "CHEQUE";
     public static final String THIRD_PARTY_PAYMENT_MODE_DD = "DD";
     public static final String THIRD_PARTY_ERR_CODE_AADHAAR_NUMBER_EXISTS = "PTIS-REST-15";
-    public static final String THIRD_PARTY_ERR_MSG_AADHAAR_NUMBER_EXISTS = "Aadhaar number {0} already exists";
+    public static final String THIRD_PARTY_ERR_MSG_AADHAAR_NUMBER_EXISTS = "NRC Number {0} already exists";
     public static final String THIRD_PARTY_ERR_CODE_MOBILE_NUMBER_EXISTS = "PTIS-REST-16";
     public static final String THIRD_PARTY_ERR_MSG_MOBILE_NUMBER_EXISTS = "Mobile number {0} already exists";
     public static final String THIRD_PARTY_ERR_CODE_REVISIONPETITION_RECEIVEDON = "PTIS-REST-17";
@@ -1203,7 +1203,7 @@ public interface PropertyTaxConstants {
     public static final String THIRD_PARTY_ERR_CODE_PROPERTYTRANSFER_TAXPENDING = "PTIS-REST-30";
     public static final String THIRD_PARTY_ERR_MSG_PROPERTYTRANSFER_TAXPENDING = "Transfer of Ownership not possible.Tax due for the selected property";
     public static final String THIRD_PARTY_ERR_CODE_AADHAAR_NUMBER_NOTEXISTS = "PTIS-REST-31";
-    public static final String THIRD_PARTY_ERR_MSG_AADHAAR_NUMBER_NOTEXISTS = "Adhaar Detail not found in uidai server for the given aadhaar number ";
+    public static final String THIRD_PARTY_ERR_MSG_AADHAAR_NUMBER_NOTEXISTS = "NRC Detail not found in uidai server for the given NRC Number ";
     public static final String THIRD_PARTY_ERR_CODE_PROPERTYTRANSFER_REQUIREDDOCUMENTMISSING = "PTIS-REST-32";
     public static final String THIRD_PARTY_ERR_MSG_PROPERTYTRANSFER_REQUIREDDOCUMENTMISSING = "Please attach relevant documents for property transfer. Type: ";
     public static final String THIRD_PARTY_ERR_CODE_PROPERTYTRANSFER_TRANSFEREE_GENDERMANDATORY = "PTIS-REST-33";

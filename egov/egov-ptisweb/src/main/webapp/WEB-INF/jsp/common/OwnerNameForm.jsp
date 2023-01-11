@@ -107,7 +107,7 @@
 			 <s:hidden name="basicProperty.propertyOwnerInfoProxy[%{#ownerStatus.index}].owner.type" id="basicProperty.propertyOwnerInfoProxy[%{#ownerStatus.index}].owner.type"
                        value="%{basicProperty.propertyOwnerInfoProxy[#ownerStatus.index].owner.type}"></s:hidden>
 			  <%-- <td class="blueborderfortd" align="center">
-			  <s:textfield name="basicProperty.propertyOwnerInfoProxy[%{#ownerStatus.index}].owner.aadhaarNumber" id="aadharNo" size="12" maxlength="12" data-optional="1" data-errormsg="Aadhar no is mandatory!"
+			  <s:textfield name="basicProperty.propertyOwnerInfoProxy[%{#ownerStatus.index}].owner.aadhaarNumber" id="aadharNo" size="12" maxlength="12" data-optional="1" data-errormsg="NRC number is mandatory!"
 			  value="%{basicProperty.propertyOwnerInfoProxy[#ownerStatus.index].owner.aadhaarNumber}" data-idx="%{#ownerStatus.index}" onblur="getAadharDetails(this);" cssClass="txtaadhar"></s:textfield>
 			  </td> --%>
 			  <td class="blueborderfortd" align="center">
@@ -154,7 +154,7 @@
     		var aadharNo = jQuery(obj).val();
     		if(aadharNo.length<12){
       			jQuery(obj).val("");
-      			bootbox.alert("Invalid Aadhar number !");
+      			bootbox.alert("Invalid NRC Number !");
       			return false;
       		}
     	    jQuery.ajax({
@@ -195,7 +195,7 @@
     					jQuery("input[name='basicProperty.propertyOwnerInfoProxy["+ rowidx +"].owner.guardian']").val("");
     					jQuery("input[name='basicProperty.propertyOwnerInfoProxy["+ rowidx +"].owner.guardian']").attr('readonly', false);
     					if(aadharNo != "NaN") {
-    						bootbox.alert("Aadhar number is not valid");
+    						bootbox.alert("NRC Number is not valid");
     					}
     			   }
     	        	
@@ -207,7 +207,7 @@
     	        error:function()
     	        {
     	        	jQuery("input[name='basicProperty.propertyOwnerInfoProxy["+ rowidx +"].owner.aadhaarNumber']").val("");
-    	        	alert("Invalid Aadhar number or no details available with this Aadhar number!");
+    	        	alert("Invalid NRC Number or no details available with this NRC Number!");
     	        	return false;
     	        }
     	    });

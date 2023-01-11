@@ -252,7 +252,7 @@ public class PropertyPersistenceService extends PersistenceService<BasicProperty
                             .createQuery("select basicProperty from PropertyOwnerInfo where owner =: userId");
                     query.setParameter("userId", user.getId());
                     final BasicProperty basicProp = (BasicProperty) query.getSingleResult();
-                    errorMesg.append("With entered aadhar number - ").append(ownerInfo.getOwner().getAadhaarNumber())
+                    errorMesg.append("With entered NRC Number - ").append(ownerInfo.getOwner().getAadhaarNumber())
                             .append(" there is already owner present with owner name: ")
                             .append(user.getName());
                     if (basicProp != null)

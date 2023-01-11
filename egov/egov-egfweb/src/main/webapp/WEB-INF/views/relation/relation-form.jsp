@@ -92,7 +92,7 @@
 							<form:input path="mobile" id="mobile" onchange="checkLength();"
 								class="form-control text-left patternvalidation"
 								data-pattern="number" maxlength="10" />
-								<p id="errorForMobileNo" style="color:red;font-size:14px;display:none;">Please enter 10 digit mobile number</p>
+								<p id="errorForMobileNo" style="color:red;font-size:14px;display:none;">Please enter 9 digit mobile number</p>
 							<form:errors path="mobile" cssClass="error-msg" />
 						</div>
 					</div>

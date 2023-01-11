@@ -268,7 +268,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font size="9" isBold="true"/>
 				</textElement>
-				<text><![CDATA[PAN Number]]></text>
+				<text><![CDATA[TPIN Number]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="323" y="0" width="202" height="20" uuid="64b50169-b2d2-47e7-a9f5-a34908ecf05c"/>

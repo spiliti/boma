@@ -154,7 +154,7 @@
 					<%-- <td class="blueborderfortd" align="center"><s:textfield
 							name="basicProperty.propertyOwnerInfoProxy[%{#ownerStatus.index}].owner.aadhaarNumber"
 							id="aadharNo" size="12" maxlength="12" data-optional="1"
-							data-errormsg="Aadhar no is mandatory!"
+							data-errormsg="NRC number is mandatory!"
 							value="%{basicProperty.propertyOwnerInfoProxy[#ownerStatus.index].owner.aadhaarNumber}"
 							data-idx="%{#ownerStatus.index}" onblur="getAadharDetails(this);"
 							cssClass="txtaadhar"></s:textfield></td> --%>
@@ -227,7 +227,7 @@
 		var aadharNo = jQuery(obj).val();
 		if (aadharNo.length < 12) {
 			jQuery(obj).val("");
-			bootbox.alert("Invalid Aadhar number !");
+			bootbox.alert("Invalid NRC Number !");
 			return false;
 		}
 		jQuery
@@ -341,7 +341,7 @@
 											+ rowidx + "].owner.guardian']")
 									.attr('readonly', false);
 							if (aadharNo != "NaN") {
-								bootbox.alert("Aadhar number is not valid");
+								bootbox.alert("NRC Number is not valid");
 							}
 						}
 
@@ -354,7 +354,7 @@
 								"input[name='basicProperty.propertyOwnerInfoProxy["
 										+ rowidx + "].owner.aadhaarNumber']")
 								.val("");
-						alert("Invalid Aadhar number or no details available with this Aadhar number!");
+						alert("Invalid NRC Number or no details available with this NRC Number!");
 						return false;
 					}
 				});

@@ -62,7 +62,7 @@ $(document).ready( function () {
 	//form submit
 	$('#buttonSubmit').click(function(e) {
 		if($('#aadhaarNumber').val() == '' && $('#panNumber').val() == '') {
-			bootbox.alert("Please enter either Aadhar Number or PAN Number is Mandatory");
+			bootbox.alert("Please enter either NRC Number or TPIN Number is Mandatory");
 		}
 		if ($('form').valid()) {
 			console.log('submitted')
@@ -84,7 +84,7 @@ $(document).ready( function () {
 $('.mobileno-field').blur( function () {
 	 var mobileno = $(this).val();
 		if (mobileno.length < 10) {
-			bootbox.alert("Please enter 10 digit mobile number");
+			bootbox.alert("Please enter 9 digit mobile number");
 			$(this).val('');
 		}
 	});

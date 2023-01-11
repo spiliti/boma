@@ -81,8 +81,8 @@ public class LicenseCreateRequest {
     @Pattern(regexp = NUMERIC, message = "Invalid Mobile Number")
     private String mobilePhoneNumber;
 
-    @Pattern(regexp = NUMERIC, message = "Invalid Aadhaar Number")
-    @Length(max = 12, message = "Aadhaar Number must be 12 digit")
+    @Pattern(regexp = NUMERIC, message = "Invalid NRC Number")
+    @Length(max = 12, message = "NRC Number must be 12 digit")
     private String aadhaarNumber;
 
     @NotBlank(message = "Email is required")

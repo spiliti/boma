@@ -163,7 +163,7 @@
 					<textElement>
 						<font size="7" isBold="true"/>
 					</textElement>
-					<text><![CDATA[PAN Number]]></text>
+					<text><![CDATA[TPIN Number]]></text>
 				</staticText>
 				<staticText>
 					<reportElement x="130" y="23" width="56" height="30" isPrintWhenDetailOverflows="true"/>

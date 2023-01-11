@@ -140,7 +140,7 @@
 							<th class="bluebgheadtd">Sl No</th>
 							<th class="bluebgheadtd">Party Name</th>
 							<s:if test="%{level == 'atcoc'}">
-								<th class="bluebgheadtd">PAN Number</th>
+								<th class="bluebgheadtd">TPIN Number</th>
 							</s:if>
 							<th class="bluebgheadtd">Bill Number/Reciept Number</th>
 							<th class="bluebgheadtd">Bill/Receipt Amount(Rs)</th>

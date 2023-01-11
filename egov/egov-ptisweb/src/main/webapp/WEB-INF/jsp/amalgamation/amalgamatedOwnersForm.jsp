@@ -95,7 +95,7 @@
 						<!-- <td><s:textfield
 								name="amalgamationOwnersProxy[%{#ownerStatus.index}].owner.aadhaarNumber"
 								id="aadharNo" size="12" maxlength="12" data-optional="1"
-								data-errormsg="Aadhar no is mandatory!"
+								data-errormsg="NRC number is mandatory!"
 								value="%{amalgamationOwnersProxy[#ownerStatus.index].owner.aadhaarNumber}"
 								data-idx="%{#ownerStatus.index}"
 								cssClass="form-control  txtaadhar"></s:textfield></td> -->

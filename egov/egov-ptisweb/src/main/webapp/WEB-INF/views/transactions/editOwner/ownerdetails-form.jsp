@@ -668,7 +668,7 @@ body {
 												+ rowidx + "].owner.guardian']")
 										.attr('readonly', false);
 								if (aadharNo != "NaN") {
-									bootbox.alert("Aadhar number is not valid");
+									bootbox.alert("NRC Number is not valid");
 								}
 							}
 						});

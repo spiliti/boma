@@ -501,7 +501,7 @@ public class RestApiConstants {
     public static final String THIRD_PARTY_ERR_MSG_CONTRACTOR_CONTACTPERSON_INVALID = "Contact person is not a valid";
 
     public static final String THIRD_PARTY_ERR_CONTRACTOR_PANNUMBER_INVALID = "EGWORKS-CONTRACTOR-14";
-    public static final String THIRD_PARTY_ERR_MSG_CONTRACTOR_PANNUMBER_INVALID = "PAN number is not a valid";
+    public static final String THIRD_PARTY_ERR_MSG_CONTRACTOR_PANNUMBER_INVALID = "TPIN Number is not a valid";
 
     public static final String THIRD_PARTY_ERR_CONTRACTOR_TINNUMBER_INVALID = "EGWORKS-CONTRACTOR-15";
     public static final String THIRD_PARTY_ERR_MSG_CONTRACTOR_TINNUMBER_INVALID = "TIN number is not a valid";
