@@ -93,7 +93,7 @@
             <div class="container-fluid">
                 <div class="navbar-header col-md-10 col-xs-10">
                     <a class="navbar-brand" href="javascript:void(0);">
-                        <img src="<c:url value='/downloadfile/logo' context='/egi'/>" height="60">
+                        <img src="<cdn:url  value='/resources/global/images/municipality_logo.png'  context='/egi'/>" height="60">
                         <div>
                             <span class="title2">Mapepe City Council</span>
                         </div>

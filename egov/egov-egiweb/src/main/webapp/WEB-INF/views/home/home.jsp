@@ -113,7 +113,7 @@
         <div class="navbar-inner">
             <div class="navbar-brand">
                 <a href="javascript:void(0);">
-                    <img src="/egi/downloadfile/logo" height="60" class="homepage_logo">
+                    <img src="<cdn:url  value='/resources/global/images/municipality_logo.png'/>" height="60" class="homepage_logo">
                 </a>
             </div>
 

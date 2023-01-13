@@ -113,7 +113,7 @@
 		      </button>
 		      
 		      <a class="navbar-brand customer-logo" data-toggle="tooltip" data-placement="bottom" title="Dashboard Home" href="/dashboard/home">
-					  <img src="<c:url value='/downloadfile/logo' context='/egi'/>" height="55">
+					  <img src="<cdn:url  value='/resources/global/images/municipality_logo.png'  context='/egi'/>" height="55">
 		      </a>
 		      <a class="navbar-brand visible-lg-block visible-md-block" data-toggle="tooltip" data-placement="bottom" title="Property Tax Home" href="/ptis/dashboard/home?isdefault=true">Property Tax</a>
 		      <span class="navbar-brand visible-sm-block visible-xs-block" style="color:#FFF"><span class="title"></span></span>
